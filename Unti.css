@@ -1,0 +1,23 @@
+body { margin: 0; }
+   .menu {
+    background: #2eb135; /* Цвет фона */
+    margin: 0; /* Убираем отступы */
+    font-family: Arial, sans-serif; /* Шрифт */
+   }
+   li {
+    display: inline-block;
+    list-style: none; /* Убираем маркеры */
+    width: 90px; /* Ширина */
+    text-align: center; /* Выравниваем по центру */
+   }
+   .icon {
+    font-size: 3em; /* Размер иконок */
+    display: block; /* Блочный элемент */
+   }
+   .menu a {
+    color: #fff; /* Белый цвет */
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+    padding: 0 0 5px; /* Поле снизу */
+   }
+   .favorite:before{ content: "\\2709\ "; }
+.favorite:after{ content: "\ \\2709"; } 
