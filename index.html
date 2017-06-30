@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Cherry+Swash'>
     <link rel="stylesheet" href="index.css">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Cherry+Swash'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <a href="#home">Головна</a>
             <a href="#services">Послуги</a>
-            <a href="#order">Замовлення</a>
+            <a href="#orderservice">Замовлення</a>
             <a href="#cooperation">Співпраця</a>
             <a href="#contact">Контакти</a>
             <div class="animation start-home"></div>
@@ -20,32 +24,29 @@
     </header>
     <main>
         <section id="home">
-            <br>
-            <div class="block">
-                <p>Катинський Тарас</p>
-                <h1>Full Stack Developer</h1>
+            <div class="image">
+                <img src="webdevelopment.jpg" alt="webdevelopment" class="program">
+                <h2>Катинський Тарас</h2>
             </div>
-            <br>
-            <img src="computer.jpg" alt="computer" class="computer">
-
+            <img src="web.jpg" alt="web" class="web">
             <div class="work">
                 <p>
                     Створення сайтів завжди було дуже серйозною і клопіткою роботою. У випадках, коли він потрібен для звіту, «для галочки», то, звичайно, витрачати на нього багато часу і пристойні суми не має сенсу. Але якщо створити сайт для вирішення значущих бізнес-задач,
                     ставитися до нього так-сяк, «як-небудь» категорично не можна. Інтернет, хоч і є віртуальним середовищем, але знання, сили і час, які витрачаються на створення таких сайтів цілком реально.У багатьох клієнтів існує досить поширена помилка,
                     що створити сайт - легко, просто і швидко. Досить, всього лише, на безкоштовному конструкторі натиснути створити сайт і він буде приносити свої плоди ... Але це не так, тому що безкоштовні сайти завжди урізані функціонально, не оптимізовані,
-                    дизайн завжди нудний і примітивний що в свою чергу відбивається на клієнті як про тому хто не дбає про свою репутацію
+                    дизайн завжди нудний і примітивний що в свою чергу відбивається на клієнті як про тому хто не дбає про свою репутацію.
                 </p>
             </div>
             <br>
-            <h2>Я надам Вам якісні професійні послуги веб-розробника, і Ви отримаєте саме той сайт який хотіли!</h2>
+            <h2>Я надам Вам якісні професійні послуги веб-розробника, і Ви отримаєте сайт який хотіли!</h2>
             <br>
         </section>
-        <br>
         <section id="services">
             <div class="services">
-                <p>Послуги</p>
+                <h2>Послуги</h2>
             </div>
             <br>
+            <img src="php.jpg" alt="php" class="php">
             <div>
                 <ul>
                     <li>
@@ -61,7 +62,7 @@
                         <span class="letter">Наповнення сайту Вашим контентом: товарами інтернет-магазину, текстовою інформацією, графічної інформації.</span>
                     </li>
                     <li>
-                        <span class="letter">Розробка логотипів і фірмового стилю: створення графічних елементів, поєднання кольорів, шрифтів</span>
+                        <span class="letter">Розробка логотипів і фірмового стилю: створення графічних елементів, поєднання кольорів, шрифтів.</span>
                     </li>
                     <li>
                         <span class="letter">Установка, доробка додаткового функціоналу: форум, фотогалерея, інтернет-магазин, слайдер, карта сайту, форми для зв'язку.</span>
@@ -75,7 +76,7 @@
                 <p>Ви готові зробити замовлення?</p>
             </div>
             <br><br>
-            <h2>Заповніть форму точною інформацією про Ваше замовлення, далі я зв'яжуся з вами за вказаними контактами в формі і ми детально обговоримо технічне завдання, терміни, умови оплати і відповім на всі Ваші запитання.</h2>
+            <h3>Заповніть форму точною інформацією про Ваше замовлення, далі я зв'яжуся з вами за вказаними контактами в формі і ми детально обговоримо технічне завдання, терміни, умови оплати і відповім на всі Ваші запитання.</h3>
             <br>
             <br>
             <form method="POST" action="https://formspree.io/katinskiytaras@gmail.com">
@@ -112,57 +113,47 @@
             </form>
         </section>
         <br><br>
-        <section id="сooperation">
+        <section id="cooperation">
             <div class="border">
-                <p>Співпраця</p>
+                <h2>Співпраця</h2>
             </div>
             <br>
+            <img src="people.jpg" alt="people" class="people">
             <div class="work">
                 <p>Я завжди радий партнерству і співробітництву з іншими розробниками або веб-студіями пов'язаними зі створенням сайтів, розкручуванням і просуванням сайтів і рекламними агентствами. Запрошую до співпраці всіх, хто зацікавлений на взаємовигідних
                     умовах створювати якісні веб-сайти, дизайни та інше. Готовий до обговорення будь-яких виробничих і комерційних питань, готовий стати порядною і надійним партнером, взявши на себе всі зобов'язання щодо втілення ідей і завдань в питаннях
-                    веб-індустрії.
-                </p>
+                    веб-індустрії. Веб-студіям та рекламним агенціям пропоную професійні послуги високої якості у створенні сайтів, веб розробці, оптимізації, дизайні, створенні фірмового стилю та ін. Послуг дизайну, а також консалтинг в сфері веб-технологій.
+                    Я відкритий для будь-яких пропозицій на предмет співпраці з розробки стартапів. Зацікавлений і мотивований на участь в такого роду проектах на довгостроковій основі.</p>
             </div>
-            <br>
-            <img src="сooperation.jpg" alt="сooperation">
-            <div class="work">
-                <p>Веб-студіям та рекламним агенціям пропоную професійні послуги високої якості у створенні сайтів, веб розробці, оптимізації, дизайні, створенні фірмового стилю та ін. Послуг дизайну, а також консалтинг в сфері веб-технологій. Якщо Ви менеджер
-                    компанії, системний адміністратор або просто відповідальна особа, якій доручили знайти розробника звертайтеся до мене і я гарантую хорошу якість виконаної роботи і винагорода. При співпраці можливі різноманітні цінові знижки та ін.
-                    Фрілансер і НЕЗАЛЕЖНОЮ МЕНЕДЖЕРАМ Якщо Ви маєте ряд Клієнтів, зацікавлених в розробці сайтів, але у Вас не достатньо трудового ресурсу для вирішення всіх питань самостійно, довірте мені Ваші завдання в веб-розробці. При співпраці можливі
-                    різноманітні цінові знижки та ін. ВСІМ БАЖАЮЧИМ СТВОРЮВАТИ стартапів Я відкритий для будь-яких пропозицій на предмет співпраці з розробки стартапів. Зацікавлений і мотивований на участь в такого роду проектах на довгостроковій основі.</p>
-            </div>
-            <br>
-            <img src="work.jpg" alt="partner">
         </section>
     </main>
     <br>
     <footer>
         <div id="contact" class="contact">
-            <ul class="hr">
+            <p>Залишились запитання?</p>
+        </div>
+        <br>
+        <div class="footer-social-icons">
+            <ul class="social-icons">
                 <li>
-                    <a href="https://www.facebook.com/" rel="nofollow" target="_blank"><img src="https://www.compgramotnost.ru/wp-content/themes/compgramotnost/img/facebook.png" class="img-responsive" alt="FaceBook"></a>
-                </li>
-
-                <li>
-                    <a href="https://plus.google.com/" rel="nofollow" target="_blank"><img src="https://www.compgramotnost.ru/wp-content/themes/compgramotnost/img/gplus.png" class="img-responsive" alt="Google Plus"></a>
-                </li>
-
-                <li>
-                    <a href="https://twitter.com/" rel="nofollow" target="_blank"><img src="https://www.compgramotnost.ru/wp-content/themes/compgramotnost/img/twitter_letter.png" class="img-responsive" alt="Twitter"></a>
-                </li>
-
-                <li>
-                    <a href="https://vk.com/" rel="nofollow" target="_blank"><img src="https://www.compgramotnost.ru/wp-content/themes/compgramotnost/img/vk.png" class="img-responsive" alt="Vkontakte"></a>
+                    <a href="https://twitter.com/?lang=uk" class="social-icon"> <i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="//feeds.feedburner.com/" rel="nofollow" target="_blank"><img src="https://www.compgramotnost.ru/wp-content/themes/compgramotnost/img/rss.png" class="img-responsive" alt="RSS via FeedBurner"></a>
+                    <a href="https://uk-ua.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a>
                 </li>
-
                 <li>
-                    <a href="https://feedburner.google.com/" rel="nofollow" target="_blank"><img src="https://www.compgramotnost.ru/wp-content/themes/compgramotnost/img/mail.png" class="img-responsive" alt="Email FeedBurner"></a>
+                    <a href="http://xml.com/" class="social-icon"> <i class="fa fa-rss"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/?hl=uk&gl=UA" class="social-icon"> <i class="fa fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/" class="social-icon"> <i class="fa fa-google-plus"></i></a>
                 </li>
             </ul>
-            <p>Залишились запитання?</p>
         </div>
     </footer>
 </body>
