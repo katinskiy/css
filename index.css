@@ -7,7 +7,7 @@ body {
     background: #FFE4E1;
     max-width: 980px;
     margin: 0 auto;
-    margin-left: 150px;
+    
 }
 
 nav {
@@ -32,6 +32,7 @@ nav a {
     text-align: center;
     color: white;
     cursor: pointer;
+
 }
 
 nav .animation {
@@ -66,7 +67,7 @@ a:nth-child(5) {
 
 nav .start-home,
 a:nth-child(1):hover~.animation {
-    width: 100px;
+    width:100px;
     left: 0;
     background-color: #1abc9c;
 }
@@ -96,7 +97,7 @@ a:nth-child(4):hover~.animation {
 nav .start-contact,
 a:nth-child(5):hover~.animation {
     width: 120px;
-    left: 480px;
+    left: 520px;
     background-color: #e67e22;
 }
 
@@ -104,8 +105,10 @@ a:nth-child(5):hover~.animation {
     border-radius: 20px;
     float: left;
     margin: 0 0 1em 1em;
-    height: 300px;
-    max-width: 100%;
+    height: 260px;
+    max-width: 320px;
+margin-top:20px;
+    
 }
 
 .program {
@@ -131,9 +134,11 @@ a:nth-child(5):hover~.animation {
 }
 
 .work p {
-    font-size: 20pt;
+    font-size: 15pt;
     text-align: justify;
     margin-left: 0;
+padding: 10px;
+    
 }
 
 .services {
@@ -151,7 +156,7 @@ a:nth-child(5):hover~.animation {
 
 @keyframes pulse {
     0% {
-        background-color: #708090;
+        background-color:  	#C0C0C0;
     }
     100% {
         background-color: #FFE4E1;
@@ -162,18 +167,24 @@ a:nth-child(5):hover~.animation {
     font-size: 30pt;
     text-align: center;
     font-family: Lobster;
+
+    
 }
 
 ul {
     list-style-type: disc;
     list-style-position: outside;
     text-align: justify;
+padding: 10px;
+    
 }
 
 li {
     color: #000000;
     font-size: 25pt;
     list-style-position: inside;
+padding: 10px;
+    
 }
 
 .letter {
@@ -182,6 +193,8 @@ li {
     font-family: serif;
     font-weight: normal;
     color: #000000;
+padding: 10px;
+    
 }
 
 #services img {
@@ -212,10 +225,12 @@ h3 {
     font-weight: normal;
     color: #B22222;
     text-align: justify;
+padding: 10px;
+    
 }
 
 form {
-    margin: 0 auto;
+   
     max-width: 100%;
     padding: 30px 30px 6px 30px;
     border: rgba(0, 0, 0, 0.2) solid 1px;
@@ -248,12 +263,14 @@ select {
     background: #FFE4E1;
 }
 
-input[type="submit"] {
+.button {
     cursor: pointer;
-    width: 100px;
-    height: 50px;
+    width: 170px;
+    height: 65px;
     color: #000000;
     font-weight: bold;
+
+    
 }
 
 .border {
@@ -266,6 +283,8 @@ input[type="submit"] {
     width: 100%;
     height: 80px;
     animation: pulse 5s infinite;
+ box-sizing: border-box;
+    
 }
 
 .people {
@@ -303,9 +322,11 @@ input[type="submit"] {
 }
 
 .footer-social-icons {
-    width: 500px;
+    max-width: 50%;
     display: block;
     margin: 0 auto;
+
+    
 }
 
 .social-icon {
@@ -313,6 +334,8 @@ input[type="submit"] {
     padding: 0;
     list-style: none;
     margin-top: 10px;
+ margin-left: 0;
+    
 }
 
 .social-icons li {
@@ -415,3 +438,53 @@ input[type="submit"] {
     font-size: 30pt;
     font-family: Lobster;
 }
+#ftlink {
+    font-size: 20pt;
+    padding:0 15px;
+padding-bottom:8px;
+   
+}
+#ftlink a {
+    text-decoration: none;
+color:#000000;
+    
+}
+#copyright {
+    font-size: 18pt;
+float: right;
+    
+}
+ #scroller_container {
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        line-height:0;
+        font-size:0;
+    height: 250px;
+     
+ }
+    #scroller_container div {
+        float: left;
+        vertical-align: baseline;
+    
+        
+    }
+    #scroller_container>div {
+        position: relative;
+        white-space: nowrap;
+        width: 100%;
+        padding: 22px 0;
+   
+        
+    }
+    #scroller_container>div a,
+    #scroller_container>div a img {
+        padding: 0;
+        margin:0;
+    height: 200px;
+        
+    }
+    #scroller_container>div a img {
+        margin: 0 1px;
+        border:0;
+    }
